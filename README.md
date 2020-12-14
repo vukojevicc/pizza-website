@@ -1,2 +1,2 @@
 # pizza-website
-My assignment was to create dynamic website using PHP
+5 page website

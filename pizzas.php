@@ -7,7 +7,7 @@
             <section class="pizzas">
                 <?php foreach($pizzas as $key=>$pizza): ?>
                 <article class="pizza-item">
-                    <a href="/single-pizza.php?id=<?php echo $key; ?>">
+                    <a href="single-pizza.php?id=<?php echo $key; ?>">
                         <img src="./img/pizzas/<?php echo $pizza['image']; ?>">
                     </a>
                     <span class="favorite fa <?php echo ($pizza['favorite'] == false) ? 'fa-heart-o':'fa-heart' ?>"></span>

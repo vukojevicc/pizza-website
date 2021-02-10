@@ -9,7 +9,7 @@
             if(empty($email)){
                 $formErrors["email"][] = "Email field can't be empty";
             }
-            if(strpos($email, "@") < 1){
+            else if(strpos($email, "@") < 1){
                 $formErrors["email"][] = "Please provide valid email adress";
             }
         }
